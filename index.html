@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Todo list app</title>
+		<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	</head>
+
+	<body>
+		<header>TO DO LIST
+			<div class="row1">
+				<input type="text" placeholder="New Task Here" id="item">
+				<div id="add">ADD</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<ul class="todo" id="all"></ul>
+		</div>
+
+		<div id="myModal" class="modal">
+			<div class="modal-content">EDIT TASK
+				<div class="row">
+					<input type="text" placeholder="New Task Name" id="modText"/>
+					<input type="submit" value="OK" id="modOK"/>
+				</div>
+		  </div>
+		</div>
+
+		<!-- JavaScripts -->
+		<script src="resources/js/index.js"></script>
+	</body>
+</html>
